@@ -1,0 +1,108 @@
+
+:root{
+    --color-bg: #2E2E56;
+    --color-line: #ffffff;
+    --color-social-media: #c5883d;
+    --color-buttons-products: #FF823D;
+}
+body{
+    background-color: var(--color-bg);
+    font-family: Arial, sans-serif;
+}
+
+.icon-svg{
+    height: 50px;
+    width: 50px;
+}
+.text-banner1{
+    font-size: 90px;
+    font-weight: bold
+}
+
+hr{
+    background-color: var(--color-line);
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 3px;
+    margin-bottom: 50px;
+}
+
+.list-group-item{
+    background-color: transparent !important;
+    border: none;
+    color: var(--color-line);
+}
+
+.bi{
+    color: var(--color-social-media);
+}
+
+.form{
+    padding-top: 60px;
+    margin: 0 40px;
+}
+span{
+    color: var(--color-social-media);
+    font-size: 20px;
+}
+
+
+.image{
+    width: 200px;
+    height: 200px;
+}
+
+.btnComprar{
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-buttons-products);
+}
+
+.btnComprar:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.price{
+    background-color: gainsboro;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.card-title {
+ font-weight: bold;
+}
+
+/*--------Login -----------------*/
+
+.my-Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-Form{
+    width: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    background-color: var(--color-bg);
+}
+
+.color-body{
+    background-color: var(--color-line) !important;
+}

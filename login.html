@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/sweetalert2.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Login</title>
+</head>
+
+<body class="color-body">
+    <!--Login Form-->
+    <div class="my-Form">
+        <form class="text-white login-Form ">
+            <h2 class="text-center mb-5">Iniciar Sesión</h2>
+            <div class="mb-4">
+                <label class="form-label">Nombre de usuario</label>
+                <input type="text" class="form-control" id="userName">
+            </div>
+            <div class="mb-5">
+                <label class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="pass">
+            </div>
+            <div class="d-grid">
+                <button type="button" onclick="login()" id="loginBtn" class="btn btn-success mb-5 ">Login</button>
+            </div>
+        </form>
+    </div>
+    <!--End Login Form-->
+    <script src="/js/index.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/sweetalert2.all.min.js"></script>
+</body>
+
+</html>
